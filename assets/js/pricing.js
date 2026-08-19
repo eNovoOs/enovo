@@ -1,14 +1,16 @@
 // ============================================================
 //  CTA DESTINATIONS
-//  TODO: paste the real trial / checkout link for each plan.
-//  Any plan left blank falls back to the "Schedule a Call" URL,
-//  so no button is ever dead.
+//  Each plan deep-links to its own checkout, so the matching plan
+//  arrives pre-selected. Any plan left blank falls back to the
+//  "Schedule a Call" URL, so no button is ever dead.
 // ============================================================
 const CALL_URL = "https://calendar.prospectconnect.ai/calendar/69a1cad65155157c85f1739b";
+const CHECKOUT_BASE = "https://platform.osenovo.com/checkout";
+const ACCOUNT_ID = "6982320b67ddb968f9362bfc";
 const TRIAL_URLS = {
-    starter: "",
-    growth: "",
-    scale: ""
+    starter: CHECKOUT_BASE + "/6a32e88bf2545e1f9733f017/" + ACCOUNT_ID,
+    growth:  CHECKOUT_BASE + "/6a85e40768bbf98f8bd5e123/" + ACCOUNT_ID,
+    scale:   CHECKOUT_BASE + "/6a85e4a068bbf98f8bd5e5d5/" + ACCOUNT_ID
 };
 
 document.querySelectorAll('[data-cta="trial"]').forEach(function (el) {
