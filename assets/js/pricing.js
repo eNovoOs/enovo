@@ -4,7 +4,7 @@
 //  arrives pre-selected. Any plan left blank falls back to the
 //  "Schedule a Call" URL, so no button is ever dead.
 // ============================================================
-const CALL_URL = "https://calendar.prospectconnect.ai/calendar/69a1cad65155157c85f1739b";
+const CALL_URL = "https://calendly.com/d/dv8r-s8f-3vt/connect-w-andre-j";
 const CHECKOUT_BASE = "https://platform.osenovo.com/checkout";
 const ACCOUNT_ID = "6982320b67ddb968f9362bfc";
 const TRIAL_URLS = {
