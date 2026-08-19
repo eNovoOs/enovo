@@ -4,7 +4,7 @@
        CALL_URL     = where the "Book a Call" buttons send people to book.
     ==================================================================== */
     const CHECKOUT_URL = "https://YOUR-CHECKOUT-LINK-HERE.com";   // TODO: paste your checkout / purchase URL
-    const CALL_URL     = "https://calendar.prospectconnect.ai/calendar/69a1cad65155157c85f1739b";
+    const CALL_URL     = "https://calendly.com/d/dv8r-s8f-3vt/connect-w-andre-j";
 
     document.querySelectorAll('[data-cta="start"]').forEach(function(a){ a.href = CHECKOUT_URL; a.target = "_blank"; a.rel="noopener"; });
     document.querySelectorAll('[data-cta="call"]').forEach(function(a){ a.href = CALL_URL; a.target = "_blank"; a.rel="noopener"; });
